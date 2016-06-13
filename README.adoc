@@ -1,0 +1,79 @@
+unip.user.js
+============
+:firefox: https://www.mozilla.org/[Firefox]
+:greasemonkey: http://www.greasespot.net/[Greasemonkey]
+:install: https://raw.githubusercontent.com/griebd/unip.user.js/master/unip.user.js[instalar]
+:license: link:LICENSE[LICENSE]
+:unip: http://www.unip.br/ead[UNIP Interativa]
+:ava: http://ead.unipinterativa.edu.br/webapps/portal/frameset.jsp[Ambiente Virtua de Aprendizagem]
+
+Um script, para uso com o {greasemonkey}, com o objetivo de melhorar o {ava} da
+{unip} para os alunos.
+
+NOTE: This Greasemonkey script is to be used by studants of "UNIP Interativa", a
+Brazilian university! That's why all text/doc/help is in Portuguese only
+(excluding this note and the license info).
+
+Recursos
+--------
+
+Disponíveis
+~~~~~~~~~~~
+
+. No Histórico Escolar acrescenta uma mini tabela detalhando a Carga Horária. A
+  mesma é dividida em Obrigatória, Optativa, Atividade Complementar e Total. E,
+  para cada uma destas, é detalhada em Exigida, Cumprida, Cursando e
+  Remanescente (a cursar).
+
+Planejados (a implementar)
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+- auto-login...
+- Corrigir a Carga Horária exigida de Atividades Complementares de acordo com o
+  curso.
+- Calculo de notas antes da divulgação oficial (baseado em notas já existentes
+  e/ou cadastradas pelo aluno).
+
+Como Instalar
+-------------
+
+Pré-requisitos
+~~~~~~~~~~~~~~
+
+Para usar o script é preciso usar o {firefox} com a extensão {greasemonkey}
+instalada e ativa. A instalação dos mesmos não faz parte do escopo destas
+instruções.
+
+Instalação
+~~~~~~~~~~
+
+Basta clicar {install}!
+
+Caso não funcione é porque a extensão {greasemonkey} não está instalada ou outro
+browser que não o {firefox} está sendo usado.
+
+Atualização
+~~~~~~~~~~~
+
+A atualização é feita automaticamente pelo {greasemonkey}.
+
+Caso seja necessário alguma intervenção após a atualização o script irá alertar
+quando for executado pela primeira vez após a atualização.
+
+Utilização
+----------
+
+Histórivo Acadêmico
+~~~~~~~~~~~~~~~~~~~
+
+Basta acessar a página do Histórivo Acadêmico na Secretaria Virtual e aparecerá
+uma mini tabela junto as informações de Carga Horária detalhando a mesma.
+
+License
+-------
+
+Esse projeto é licensiado pela Licença do MIT - veja o arquivo {license} para
+detalhes.
+
+This project is licensed under the MIT License - see the {license} file for
+details.
