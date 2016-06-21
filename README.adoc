@@ -6,6 +6,7 @@ unip.user.js
 :license: link:LICENSE[LICENSE]
 :unip: http://www.unip.br/ead[UNIP Interativa]
 :ava: http://ead.unipinterativa.edu.br/webapps/portal/frameset.jsp[Ambiente Virtua de Aprendizagem]
+:pag-config: <<pag-config, Página de Configuração>>
 
 Um script, para uso com o {greasemonkey}, com o objetivo de melhorar o {ava} da
 {unip} para os alunos.
@@ -20,6 +21,8 @@ Recursos
 Disponíveis
 ~~~~~~~~~~~
 
+. Auto Login: sempre que estiver na tela de login o script irá entrar com o usuário
+  e a senha (previamente cadastrados) e entrará no :ava: automaticamente.
 . No Histórico Escolar acrescenta uma mini tabela detalhando a Carga Horária. A
   mesma é dividida em Obrigatória, Optativa, Atividade Complementar e Total. E,
   para cada uma destas, é detalhada em Exigida, Cumprida, Cursando e
@@ -28,7 +31,7 @@ Disponíveis
 Planejados (a implementar)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-- auto-login...
+- Fazer a {pag-config} ficar apresentável...
 - Corrigir a Carga Horária exigida de Atividades Complementares de acordo com o
   curso.
 - Calculo de notas antes da divulgação oficial (baseado em notas já existentes
@@ -62,6 +65,32 @@ quando for executado pela primeira vez após a atualização.
 
 Utilização
 ----------
+
+
+[[pag-config]]
+Página de Configuração
+~~~~~~~~~~~~~~~~~~~~~~
+
+Nesta página é possível alterar as configurações do script.
+
+Para acessar a mesma basta acessar o menu do script no {greasemonkey}, veja na
+documentação do {greasemonkey} para detalhes.
+
+As opções são descritas/detalhadas nas descrições de cada função disponível a
+seguir.
+
+Auto Login
+~~~~~~~~~~
+
+Para usar esta função é necessário habilitar a mesma na {pag-config} do
+script, também é possível informar o usuário e a senha para login neste página.
+
+Caso o usuário/senha não tenha sido cadastrado na {pag-config} basta
+deixar a opção "MEMORIZAR" habilitada e entrar no sistema manualmente para que
+as informações sejam memorizadas.
+
+Após o cadastro das informações de usuário e senha, e com a função habilitada,
+o login será feito pelo script.
 
 Histórivo Acadêmico
 ~~~~~~~~~~~~~~~~~~~
